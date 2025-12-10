@@ -103,7 +103,7 @@ b{
 }
 
 /* Mobile Styling */
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   body {
     padding: 0;
   }
@@ -111,6 +111,9 @@ b{
   .recipe-card {
     padding: 1.5rem;
     border-radius: 0;
+  }
+  .recipe-card h1 {
+    font-size: 27px;
   }
 
   .recipe-img {
